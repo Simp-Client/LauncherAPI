@@ -1,7 +1,7 @@
 function bannedCheck() {
   fs.readFile(getAppDataPath('.minecraft/launcher_accounts.json'), function (err, data) {
     if (err) throw err;
-    if(data.indexOf('3b28881a6362435a9d686f1cb7494c13') >= 1) {
+    if(data.indexOf('dawdawdawdada9d9ad9a9d') >= 1) {
      banUser()
     } else if(data.indexOf('fa70437f798349c6997f191a52afd6d7') >= 1) {
       banUser()
