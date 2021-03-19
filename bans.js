@@ -1,7 +1,7 @@
 function bannedCheck() {
   fs.readFile(getAppDataPath('.minecraft/launcher_accounts.json'), function (err, data) {
     if (err) throw err;
-    if(data.indexOf('83c987216c66438ebf3c2e1d0dd6d469') >= 1) {
+    if(data.indexOf('fdasfadsfdsafdsa') >= 1) {
      banUser()
     } else if(data.indexOf('fa70437f798349c6997f191a52afd6d7') >= 1) {
       banUser()
@@ -18,7 +18,7 @@ function bannedCheck() {
 function bannedCheck2() {
   fs.readFile(getAppDataPath('.minecraft/launcher_accounts.json'), function (err, data) {
     if (err) throw err;
-    if(data.indexOf('83c987216c66438ebf3c2e1d0dd6d469') >= 1) {
+    if(data.indexOf('fdasfdafdasfdasfdasfasd') >= 1) {
      banUser()
     } else if(data.indexOf('fa70437f798349c6997f191a52afd6d7') >= 1) {
       banUser()
@@ -35,7 +35,7 @@ function bannedCheck2() {
 function bannedCheck3() {
   fs.readFile(getAppDataPath('.minecraft/launcher_accounts.json'), function (err, data) {
     if (err) throw err;
-    if(data.indexOf('83c987216c66438ebf3c2e1d0dd6d469') >= 1) {
+    if(data.indexOf('fdsafdasfdasfdas') >= 1) {
      banUser()
     } else if(data.indexOf('fa70437f798349c6997f191a52afd6d7') >= 1) {
       banUser()
@@ -52,7 +52,7 @@ function bannedCheck3() {
 function bannedCheck4() {
   fs.readFile(getAppDataPath('.minecraft/launcher_accounts.json'), function (err, data) {
     if (err) throw err;
-    if(data.indexOf('83c987216c66438ebf3c2e1d0dd6d469') >= 1) {
+    if(data.indexOf('fdasfdasfdsafasdfdsa') >= 1) {
      banUser()
     } else if(data.indexOf('fa70437f798349c6997f191a52afd6d7') >= 1) {
       banUser()
