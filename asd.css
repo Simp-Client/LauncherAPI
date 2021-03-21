@@ -8,7 +8,7 @@
 }
 
 .blogtitle::after {
-   content: "1.7.10 Updates";
+   content: "Preparing for production";
 }
 
 .blogcontent::after {
